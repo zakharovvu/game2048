@@ -13,7 +13,7 @@ class App extends React.Component {
     },
   }
   probability() {
-    if ( (Math.floor(Math.random() * 100)) > 90.9090909) {
+    if ( (Math.random() * 100) > 90.9090909) {
       return 4
     } else {
       return 2
