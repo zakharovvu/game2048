@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#root {
+  text-align: center;
+}
+.reset {
+  outline: none;
+  background: rgb(103, 198, 241);
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+.reset:hover {
+  background: rgb(149, 212, 241);
+  cursor: pointer;
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, 140px);
+  grid-template-rows: repeat(4, 140px);
+}
+.square {
+  background: rgb(150, 212, 236);
+  border: 1px solid black;
+  font-size: 60px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
